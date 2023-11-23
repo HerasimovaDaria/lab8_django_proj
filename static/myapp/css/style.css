@@ -1,0 +1,44 @@
+/* myapp/static/myapp/css/style.css */
+
+/* Стиль для рядка заголовка */
+table th {
+    background-color: #FF6347;  /* Темно-червоний колір */
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Стиль для непарних рядків */
+table tbody tr:nth-child(odd) {
+    background-color: #F5F5F5;  /* Cвітло-сірий колір */
+}
+
+/* Стиль для парних рядків */
+table tbody tr:nth-child(even) {
+    background-color: #E0FFFF;  /* Блідо-бірюзовий колір */
+}
+
+/* Зміна стилю при наведенні на рядок */
+table tbody tr:hover {
+    background-color: #ADD8E6;  /* Світло-блакитний колір при наведенні */
+}
+
+/* Стиль для вигляду кнопок або посилань */
+button, a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #008080;  /* Темно-зелений колір */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Зміна стилю кнопок або посилань при наведенні */
+button:hover, a:hover {
+    background-color: #006666;  /* Темно-зелений колір при наведенні */
+}
